@@ -1,20 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(https://fonts.googleapis.com/css?family=Teko:400,700,600,500,300);
 
-
+html{
+   background: #FFCB05;
+}
 .input{
    border: black solid 2px;
-   background: black;
+   background: #2C71B8;
    height: 40px;
    margin: 0 auto;
    text-align: center;
+   font-family: teko;
+   font-size: 24px;
 }
 .inputBox{
    height: 20px;
 }
+.button{
+   padding: .5%;
+   border-radius: 10%;
+}
 .pokeCard{
    border black solid 2px;
-   background: rgb(238, 242, 39) ;
+   background: #FFCB05;
    /*height: 400px;*/
    /*margin: 0 auto;*/
    text-align: center;

@@ -6,6 +6,7 @@
    </head>
    <body ng-controller="control">
    <form class="input">
+      Look up a pokemon by number------>
       <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
       <input class="inputBox" ng-model="pokePicker" placeholder="enter an number...">
       <button class="button" ng-click="getPoke()">Submit</button>
@@ -16,7 +17,7 @@
    <div class="pokeCard">
       <img src="pokemon-logo.png" height="200" width="600"/>
       <br>
-   <div class="pokeCardInfo">
+   <div class="pokeCardInfo" ng-show="poke">
       <div id="pokename" class="pulse">{{poke.name}}</div>
       <br>
       <img class="rotate" src="{{poke.sprites.front_default}}" height="150" width="150"/>
